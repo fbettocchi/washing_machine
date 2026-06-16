@@ -16,7 +16,7 @@ from decimal import Decimal
 # ---------------------------------------------------------------------------
 LOGIN_URL    = os.environ.get("LOGIN_URL") or "https://login.eeproperty.com/"
 SITE_URL     = os.environ.get("SITE_URL",   "https://vesta.eeproperty.com/machine/tenant")
-USERNAME     = os.environ.get("SITE_USERNAME", "") 
+USERNAME     = os.environ.get("SITE_USERNAME", "")
 PASSWORD     = os.environ.get("SITE_PASSWORD", "")  # pin
 TABLE_STATES = os.environ.get("DYNAMO_TABLE_STATES", "washing-tracker-states")
 TABLE_CYCLES = os.environ.get("DYNAMO_TABLE_CYCLES", "washing-tracker-cycles")
