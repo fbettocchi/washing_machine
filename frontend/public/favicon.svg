@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <!-- Background -->
+  <rect width="32" height="32" rx="6" fill="#2563eb"/>
+  <!-- Control panel -->
+  <rect x="4" y="4" width="24" height="7" rx="3" fill="#1d4ed8"/>
+  <!-- Control dots -->
+  <circle cx="9" cy="7.5" r="1.8" fill="white"/>
+  <circle cx="14" cy="7.5" r="1.8" fill="white" opacity="0.4"/>
+  <!-- Door ring -->
+  <circle cx="16" cy="20" r="8" fill="#1d4ed8"/>
+  <circle cx="16" cy="20" r="6.5" fill="none" stroke="white" stroke-width="1.5"/>
+  <!-- Door glass -->
+  <circle cx="16" cy="20" r="5" fill="#bfdbfe" opacity="0.5"/>
+  <!-- Water wave -->
+  <path d="M12.5 20.5 Q14 18.5 16 20.5 Q18 22.5 19.5 20.5" stroke="white" stroke-width="1.2" fill="none" stroke-linecap="round"/>
+</svg>
