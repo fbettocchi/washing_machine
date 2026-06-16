@@ -1,0 +1,9 @@
+aws_region    = "eu-central-1"
+site_url      = "https://vesta.eeproperty.com/machine/tenant"
+login_url     = ""
+site_username = "XXXX"
+site_password = "XXXX"
+
+dashboard_username     = "admin"
+dashboard_password     = "un-mot-de-passe-fort"
+dashboard_token_secret = "générer avec : openssl rand -hex 32"

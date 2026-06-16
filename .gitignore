@@ -1,0 +1,21 @@
+# macOS et outils locaux
+.DS_Store
+.claude/
+
+# Terraform — secrets et artifacts
+terraform/terraform.tfvars
+terraform/.terraform/
+terraform/.terraform.lock.hcl
+terraform/.build/
+terraform/terraform.tfstate
+terraform/terraform.tfstate.backup
+*.tfstate
+*.tfstate.backup
+
+# Layer Python (dépendances compilées)
+layer/
+lambda/
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
