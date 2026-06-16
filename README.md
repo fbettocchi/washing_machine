@@ -1,5 +1,11 @@
 # Washing Machine Tracker
 
+[![CodeQL](https://github.com/fbettocchi/washing_machine/actions/workflows/codeql.yml/badge.svg)](https://github.com/fbettocchi/washing_machine/actions/workflows/codeql.yml)
+[![React](https://img.shields.io/badge/React-18-61DAFB?logo=react&logoColor=white)](https://react.dev)
+[![Python](https://img.shields.io/badge/Python-3.12-3776AB?logo=python&logoColor=white)](https://python.org)
+[![AWS](https://img.shields.io/badge/AWS-Lambda%20%2B%20DynamoDB-FF9900?logo=amazonaws&logoColor=white)](https://aws.amazon.com)
+[![IaC](https://img.shields.io/badge/IaC-OpenTofu-7B3F9E?logo=opentofu&logoColor=white)](https://opentofu.org)
+
 Real-time availability tracking for a residential laundry room, with cycle history and usage statistics.
 
 ## Architecture
